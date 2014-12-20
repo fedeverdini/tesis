@@ -1,0 +1,4 @@
+--Output from testSaveEscuelaOk--
+--Output from testSaveEscuelaDuplicated--
+--Output from testUpdateEscuelaOk--
+

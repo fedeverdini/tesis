@@ -1,0 +1,5 @@
+--Output from testAsignarEscuelaOk--
+--Output from testGetDatosPersonales--
+--Output from testSaveDocenteOk--
+--Output from testUpdateDocenteOk--
+

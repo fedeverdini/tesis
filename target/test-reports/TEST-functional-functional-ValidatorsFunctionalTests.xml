@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="fede-PC" name="ValidatorsFunctionalTests" tests="1" time="0.374" timestamp="2014-12-20T03:26:46">
+  <properties />
+  <testcase classname="ValidatorsFunctionalTests" name="testValidadoresFails" time="0.366" />
+  <system-out><![CDATA[--Output from testValidadoresFails--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:46 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [1234], must be String","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [1234], must be String","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: Invalid param [abcd], must be Long","status":400}
+========================================
+
+#]]></system-out>
+  <system-err><![CDATA[--Output from testValidadoresFails--
+]]></system-err>
+</testsuite>

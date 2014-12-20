@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="fede-PC" name="RedisFunctionalTests" tests="1" time="0.009" timestamp="2014-12-20T03:26:47">
+  <properties />
+  <testcase classname="RedisFunctionalTests" name="testRedis" time="0.002" />
+  <system-out><![CDATA[--Output from testRedis--
+]]></system-out>
+  <system-err><![CDATA[--Output from testRedis--
+]]></system-err>
+</testsuite>

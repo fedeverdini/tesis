@@ -1,0 +1,1009 @@
+Testsuite: LegajoFunctionalTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,228 sec
+------------- Standard Output ---------------
+--Output from testAddLegajoInfoOk--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/escuelas/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/escuelas/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/escuelas/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Escuela creada","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/asignar_escuela using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/asignar_escuela
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/asignar_escuela <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"dni":33444555,"escuela":"1-345","curso":"4","division":"3","nivel":"NS"},"status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":{"nivel_actual":"NS","esc_actual":"1-345","curso_actual":"4"},"nivel_inicial":{"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:47 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555","nivel_secundario":{"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555","nivel_secundario":{"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555","nivel_secundario":{"2":[{"escuela":"1-345","fecha":"17-03-2024","evento":"A5SSGXU2M9J5FCWS9WN7729GGGZ4M7SXPXWKJR8X5UIC5ADE7PEY7BMPW87030NU0JOL203B2WO4D6ATQM7KZSMRXZ6B5EVJYMXW"}],"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"},{"escuela":"1-345","fecha":"17-03-2018","evento":"K1JMFTB39JAL70OOW5GDJ8IN8MMGRTDP0DHY7ZT67ZHQAYKTV4OSO91VKI5T9GULO95R2V06K63ZRP0EGPJLIF33T82O0EZB9IEO"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555","nivel_secundario":{"2":[{"escuela":"1-345","fecha":"17-03-2024","evento":"A5SSGXU2M9J5FCWS9WN7729GGGZ4M7SXPXWKJR8X5UIC5ADE7PEY7BMPW87030NU0JOL203B2WO4D6ATQM7KZSMRXZ6B5EVJYMXW"}],"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"},{"escuela":"1-345","fecha":"17-03-2018","evento":"K1JMFTB39JAL70OOW5GDJ8IN8MMGRTDP0DHY7ZT67ZHQAYKTV4OSO91VKI5T9GULO95R2V06K63ZRP0EGPJLIF33T82O0EZB9IEO"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"}]},"alumno":"33444555","nivel_secundario":{"3":[{"escuela":"1-345","fecha":"17-03-2025","evento":"BDCWD7C5EBUO84RWAUAOEKUDPN715M9R2CMD1QCHYZRUG1HS0TRJI7D985FMPIMGIR5TO59UFXX2R2KF0UWBCDR41AXZEFXO6SN3"}],"2":[{"escuela":"1-345","fecha":"17-03-2024","evento":"A5SSGXU2M9J5FCWS9WN7729GGGZ4M7SXPXWKJR8X5UIC5ADE7PEY7BMPW87030NU0JOL203B2WO4D6ATQM7KZSMRXZ6B5EVJYMXW"}],"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"},{"escuela":"1-345","fecha":"17-03-2018","evento":"K1JMFTB39JAL70OOW5GDJ8IN8MMGRTDP0DHY7ZT67ZHQAYKTV4OSO91VKI5T9GULO95R2V06K63ZRP0EGPJLIF33T82O0EZB9IEO"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"},{"escuela":"1-345","fecha":"17-03-2019","evento":"F5YQRR20XABM35R1X707TKRBSCG0S5BNTBQSG68D0ROA8KEMVJUXUHXCHWEUTZZ9TF5ID0NTAXXMPC60OLORRRGEKJI689IZFKME"}]},"alumno":"33444555","nivel_secundario":{"3":[{"escuela":"1-345","fecha":"17-03-2025","evento":"BDCWD7C5EBUO84RWAUAOEKUDPN715M9R2CMD1QCHYZRUG1HS0TRJI7D985FMPIMGIR5TO59UFXX2R2KF0UWBCDR41AXZEFXO6SN3"}],"2":[{"escuela":"1-345","fecha":"17-03-2024","evento":"A5SSGXU2M9J5FCWS9WN7729GGGZ4M7SXPXWKJR8X5UIC5ADE7PEY7BMPW87030NU0JOL203B2WO4D6ATQM7KZSMRXZ6B5EVJYMXW"}],"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}]}},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":"Legajo creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/legajo/33444555 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/legajo/33444555
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/legajo/33444555 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:48 GMT
+========================================
+Content
+========================================
+{"response":{"escolaridad_actual":"{\"nivel_actual\":\"NS\",\"esc_actual\":\"1-345\",\"curso_actual\":\"4\"}","nivel_inicial":{"5":[{"escuela":"1-345","fecha":"07-03-2015","evento":"S4ZGYKKFL5BR7CRBOYP46ZNA60470FNYRZJVO21MKT672V0PFD4ZET1NO60GS81GOPMK0409GVACMTU66HVTD25BP6R9VEB3W6WV"}],"4":[{"escuela":"1-345","fecha":"07-02-2014","evento":"T6A82EK765I1X5348048E6B0SSOUI5UT587RHQGZGDOWTA8RFK162MNZWGHQAY24EY2XLCRVMVVK9VEAIE13DD7LRC1N9U5A9VF2"}]},"nivel_primario":{"3":[{"escuela":"1-345","fecha":"07-03-2018","evento":"3NTVKRTOFTNAM738FUPTB871KHJZ0E1MHQY4XA8PZDUEDDCGDP0NJZ7FS2B54YMFA4GB20JIEXKU22VT90WUV4TI0XBQ5IS4WB7O"},{"escuela":"1-345","fecha":"17-03-2018","evento":"K1JMFTB39JAL70OOW5GDJ8IN8MMGRTDP0DHY7ZT67ZHQAYKTV4OSO91VKI5T9GULO95R2V06K63ZRP0EGPJLIF33T82O0EZB9IEO"}],"2":[{"escuela":"1-345","fecha":"07-03-2017","evento":"UZRIZB6F5H6PEENFIEPUE05HIFB99GUATGMAKP44664JU1HPT6F3G9D8R4ZJHBXYS96OFL56MTPNVZDQEFJ6BEEXGX38E01B2515"},{"escuela":"1-345","fecha":"17-03-2017","evento":"GLA4AJLKR5PNV3ZR2OZAZ4EO6OS41SJL9DW1PBZHVYFFAKXXPKU2Y5BG07N6RVPCTHVCNKJV6DOPNTA32AF4IDIAB6URLGC01GQN"}],"1":[{"escuela":"1-345","fecha":"07-03-2016","evento":"9TLDSZDXY24JN5L9V19SM3X6E3QABPHI9A9SSWK5J0QV7PHM83QEK5K0VFNZBOT21W9GJNAO9YXRRMRC50B32BOAF2PD7649B3S9"},{"escuela":"1-345","fecha":"17-03-2016","evento":"77BBWZS2TGLHRLHF77XCFOW81Z11W5K9P3N0H4TE8L01VBWRQ8920J2P5RGNN7EJ69YJ9ST647H93O096AYXLWOJ9UZ9OINLST90"}],"7":[{"escuela":"1-345","fecha":"07-03-2022","evento":"U0GP2RX7OGAU7CXCY36UV9IHSQWSHWIK5C98TOMQ2VXIF6CRM75CPODTIN57C5IDL4XZX6EX45Q581OM2MTRVU08GPT8MWIXKO3X"}],"6":[{"escuela":"1-345","fecha":"07-03-2021","evento":"2YCF8202LC6LMEPNZVVAG04OAQ4FGWCVT4JD4L0D7K4WACPP77Q0VNVMW2M7ECKS9FTWHK9OS804L0A56V6O586W4X2PMNTUAFC1"}],"5":[{"escuela":"1-345","fecha":"07-03-2020","evento":"6T41Q4O00UKFLRXK9XG7B2QPGNERXS2Q1I1XX9AB7QI2QXK6OSIRGY08JIL7PJIXW9BRZ25R2WTJFK34Z7BB382CSAYJYKCTG7ES"}],"4":[{"escuela":"1-345","fecha":"07-03-2019","evento":"Y0WC1G0MGXJI73448GVF3XUJC2VJT4R81AHSF6KEV6IYVGK183ACOKXRC95LQKQM94N559CGYZP56UGZ2SHZQZ2QPPDST3QZWB9X"},{"escuela":"1-345","fecha":"17-03-2019","evento":"F5YQRR20XABM35R1X707TKRBSCG0S5BNTBQSG68D0ROA8KEMVJUXUHXCHWEUTZZ9TF5ID0NTAXXMPC60OLORRRGEKJI689IZFKME"}]},"alumno":"33444555","nivel_secundario":{"3":[{"escuela":"1-345","fecha":"17-03-2025","evento":"BDCWD7C5EBUO84RWAUAOEKUDPN715M9R2CMD1QCHYZRUG1HS0TRJI7D985FMPIMGIR5TO59UFXX2R2KF0UWBCDR41AXZEFXO6SN3"}],"2":[{"escuela":"1-345","fecha":"17-03-2024","evento":"A5SSGXU2M9J5FCWS9WN7729GGGZ4M7SXPXWKJR8X5UIC5ADE7PEY7BMPW87030NU0JOL203B2WO4D6ATQM7KZSMRXZ6B5EVJYMXW"}],"1":[{"escuela":"1-345","fecha":"17-03-2023","evento":"VU4PVRWADYEKBT2IICZ0HEIPFRN1GFLGMOFGAOJWAES57IC271530UV31SJD2HJXK4NGZQH5KZ1ANKVN998UNI95Q34UKEE5DG58"}],"4":[{"escuela":"1-345","fecha":"17-03-2026","evento":"J4WFM7BDQJJKOSVDALCC7XTVDJV3Q29BQIAZTTUR4EOTPWPGKUMO76Z06XCMLBQMEXN2DCNMNVYDBLRZ6OGPFBXKEWRA1JPGSV6T"}]}},"status":200}
+========================================
+
+#------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddLegajoInfoOk--
+------------- ---------------- ---------------
+
+Testcase: testAddLegajoInfoOk took 1,225 sec

@@ -1,0 +1,726 @@
+--Output from testAsignarEscuelaOk--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/45334324 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/45334324
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/45334324 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Javier","apellido":"Azcurra","dni":45334324,"direccion":{"calle":"Gral. Paz","numero":"61","piso":8,"depto":"6"},"telefono":264445132,"nacimiento":"13-04-2005"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/escuelas/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/escuelas/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/escuelas/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":"Escuela creada","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/asignar_escuela using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/asignar_escuela
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/asignar_escuela <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":{"dni":45334324,"escuela":"1-086","grado":"1","seccion":"A","nivel":"NP"},"status":201}
+========================================
+
+#--Output from testCambiarEscuelaOk--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/45323232 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/45323232
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/45323232 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Alejandro","apellido":"Arnaudo","dni":45323232,"direccion":{"calle":"Gral. Paz","numero":"61","piso":8,"depto":"6"},"telefono":264445132,"nacimiento":"13-04-2005"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/escuelas/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/escuelas/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/escuelas/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":"Escuela creada","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/escuelas/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/escuelas/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/escuelas/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:43 GMT
+========================================
+Content
+========================================
+{"response":"Escuela creada","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/asignar_escuela using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/asignar_escuela
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/asignar_escuela <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"dni":45323232,"escuela":"1-083","grado":"1","seccion":"A","nivel":"NP"},"status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/cambiar_escuela using method PUT >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/cambiar_escuela
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from PUT http://localhost:8080/tesis/alumnos/cambiar_escuela <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"dni":45323232,"escuela":"1-010","grado":"1","seccion":"A","nivel":"NP"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/escuelas/45323232 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/escuelas/45323232
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/escuelas/45323232 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":[{"dni":45323232,"escuela":"1-083","grado":"1","seccion":"A","nivel":"NP"},{"dni":45323232,"escuela":"1-010","grado":"1","seccion":"A","nivel":"NP"}],"status":200}
+========================================
+
+#--Output from testInasistencias--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/32787656 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/32787656
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/32787656 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Hernan","apellido":"Balmes","dni":32787656,"direccion":{"calle":"Segovia","numero":"261","piso":0,"depto":"0"},"telefono":2604534567,"nacimiento":"13-04-1986"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/escuelas/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/escuelas/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/escuelas/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Escuela creada","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/inasistencias using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/inasistencias
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/inasistencias <<<<<<<<<<<<<<<<<<<<
+Response was 400 'Bad Request', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+Connection: close
+========================================
+Content
+========================================
+{"response":"ERROR: El alumno con DNI : 32787656 no tiene asignada ninguna escuela","status":400}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/asignar_escuela using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/asignar_escuela
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/asignar_escuela <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"dni":32787656,"escuela":"1-266","curso":"1","division":"5","nivel":"NS"},"status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/inasistencias using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/inasistencias
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/inasistencias <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Inasistencias cargadas correctamente","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/inasistencias using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/inasistencias
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/inasistencias <<<<<<<<<<<<<<<<<<<<
+Response was 304 'Not Modified', headers:
+========================================
+Server: Apache-Coyote/1.1
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+null
+========================================
+
+#--Output from testSaveAlumnoOk--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/12345678 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/12345678
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/12345678 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Milagros","apellido":"Sosa","dni":12345678,"direccion":{"calle":"Dorrego","numero":"1361","piso":0,"depto":"0"},"telefono":2604432132,"nacimiento":"13-04-2005"},"status":200}
+========================================
+
+#--Output from testUpdateAlumnoOk--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/98765432 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/98765432
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/98765432 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Matias","apellido":"Tessi","dni":98765432,"direccion":{"calle":"Colon","numero":"356","piso":2,"depto":"C"},"telefono":26144332234,"nacimiento":"29-04-2005"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/98765432 using method PUT >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/98765432
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from PUT http://localhost:8080/tesis/alumnos/datos_personales/98765432 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Datos actualizados","status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/98765432 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/98765432
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/98765432 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Matias","apellido":"Tessi","dni":98765432,"direccion":{"calle":"Colon","numero":"356","piso":2,"depto":"C"},"telefono":2604567898,"nacimiento":"29-04-2005"},"status":200}
+========================================
+
+#--Output from testGetDatosPersonales--
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/alta using method POST >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/alta
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Content-Type: application/json
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:8080/tesis/alumnos/alta <<<<<<<<<<<<<<<<<<<<
+Response was 201 'Created', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":"Alumno creado","status":201}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/44566778 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/44566778
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/44566778 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Jesus","apellido":"Verdini","dni":44566778,"direccion":{"calle":"Mitre","numero":"2356","piso":0,"depto":"0"},"telefono":2604320897,"nacimiento":"03-10-2002"},"status":200}
+========================================
+
+#
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:8080/tesis/alumnos/datos_personales/44566778 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:8080/tesis/alumnos/datos_personales/44566778
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: application/json
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:8080/tesis/alumnos/datos_personales/44566778 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sat, 20 Dec 2014 03:26:44 GMT
+========================================
+Content
+========================================
+{"response":{"nombre":"Jesus","apellido":"Verdini","dni":44566778,"direccion":{"calle":"Mitre","numero":"2356","piso":0,"depto":"0"},"telefono":2604320897,"nacimiento":"03-10-2002"},"status":200}
+========================================
+
+#
